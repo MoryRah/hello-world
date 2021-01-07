@@ -3,15 +3,15 @@ package com.mycompany.app;
 /**
  * Hello world!
  */
-public class App
+public class HelloWorld
 {
 
     private final String message = "Hello World!";
 
-    public App() {}
+    public HelloWorld() {}
 
     public static void main(String[] args) {
-        System.out.println(new App().getMessage());
+        System.out.println(new HelloWorld().getMessage());
     }
 
     private final String getMessage() {
